@@ -1,0 +1,42 @@
+body {
+  background-color: #def5e5 !important;
+}
+.Header {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: #def5e5;
+  border-radius: 5px;
+  align-items: center;
+  flex-direction: column;
+}
+.Header img {
+  width: 55%;
+  border-radius: 5px;
+}
+.Header h1 {
+  font-size: 40px;
+  font-family: monospace;
+}
+.Header p {
+  font-size: 25px;
+  font-family: monospace;
+}
+.Header .text {
+  margin: 10px;
+}
+
+.nav-tabs {
+  background: #8ec3b0;
+}
+
+button {
+  margin: 10px;
+  border: none;
+  padding: 6px 29px 6px 29px;
+  border-radius: 10px;
+  cursor: pointer;
+  background: #8ec3b0;
+  color: #bcead5;
+  font-weight: 900;
+}
